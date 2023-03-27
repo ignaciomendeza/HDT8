@@ -8,14 +8,14 @@ public class Proceso{
         this.nombreProceso = "";
         this.nombreUsuario = "";
         this.valorNice = 0;
-        this.pr = 100;
+        this.pr = 0;
     }
 
-    public Proceso(String nombreProceso, String nombreUsuario, int valorNice) {
+    public Proceso(String nombreProceso, String nombreUsuario, int valorNice, int pr) {
         this.nombreProceso = nombreProceso;
         this.nombreUsuario = nombreUsuario;
         this.valorNice = valorNice;
-        this.pr = 100;
+        this.pr = pr;
     }
 
 
