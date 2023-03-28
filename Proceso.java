@@ -74,11 +74,10 @@ public class Proceso{
 
     @Override
     public String toString() {
-        return "{" +
-            " nombreProceso='" + getNombreProceso() + "'" +
-            ", nombreUsuario='" + getNombreUsuario() + "'" +
-            ", valorNice='" + getValorNice() + "'" +
-            "}";
+        return 
+            "Nombre del Proceso: " + getNombreProceso() + 
+            "Nombre del Usuario: " + getNombreUsuario() + 
+            "Valor Nice: " + getValorNice() + "Prioridad: " + getPr();
     }
 
 }
